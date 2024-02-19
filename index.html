@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/b20c073167.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/finallogo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#myservices">Services</a></li>
+                    <li><a href="#mywork">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full stack web developer</p>
+                <h1>Hi, I'm <span>Akshat</span> <br>from Mait</h1>
+            </div>
+        </div>     
+    </div>
+<!----------------about section------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/noida3 (2).jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About me</h1>
+                    <p> 🐱‍🏍 Currently in my Final year of B.Tech in Computer Science.<br> <br>
+                        🌇 Delhi Native, with a passion for creating and developing software that addresses real-world problems.<br><br>
+                        📚 Working as Full-Stack Developer, developing interactive and user-friendly applications using the MERN Stack.<br><br>
+                        💻 As for my future, I hope to one day work as a Full Stack Developer Role and work with a diverse team and solve complex problems in an innovative way.<br> <br>    
+                        📖 In my free time, you can find me solving DSA problems on LeetCode !<br><br>
+                       <div class="sub-tabs">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                       </div>
+                       <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages</span><br>C/C++, JavaScript, HTML, CSS</li>
+                            <li><span>Frameworks & Tools</span><br>Bootstrap, Reactjs, Expressjs, Nodejs, MySQL , Rest APIs</li>
+                            <li><span>Others</span><br>DBMS, OOPs, CN, Data structures & Algorithms</li>
+                        </ul>
+                       </div>
+
+                       <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>GGSoc</span><br>Mentored 100+ students during GirlScript Summer of code '23</li>
+                            <li><span>LeetCode</span><br>Have 3 star rating on LeetCode</li>
+                        </ul>
+                       </div>
+
+                       <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.Tech (CSE)</span><br>Maharaja Agrasen Institute Of Technology, GGSIPU</li>
+                            <li><span>Class XII</span><br>Tiny Tots School, Rajasthan</li>
+                            <li><span>Class X</span><br>Tiny Tots School, Rajasthan</li>
+                        </ul>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-----------services---------------->
+
+<div id="myservices">
+    <div class="container">
+        <h1 class="sub-tittle">My Services</h1>
+        <div class="service-list">
+            <div>
+                <i class="fa-solid fa-code fa-beat fa-sm"></i>
+                <h2>Web Designing</h2>
+                <p>I'm a final-year Computer Science student in Delhi, specializing in full-stack web development.
+                    I'm al
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-display fa-beat fa-sm"></i>
+                <h2>Frontend work</h2>
+                <p> I'm all about JavaScript, HTML, CSS, and SQL, with extra skills in React.js and Express.js.
+                    Always eager to learn
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-clipboard fa-beat fa-sm"></i>
+                <h2>college notes</h2>
+                <p>I'm passionate about creating seamless and innovative web experiences.
+                    Ready to bring my expertise 
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------my work------------------------------------>
+
+<div id="mywork">
+    <div class="container">
+        <h1 class="sub-tittle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/online-travel-booking-service-app-vector-27383867.jpg">
+                <div class="layer">
+                    <h3>AwayE</h3>
+                    <p>It is a Travel Advisory web application which is based on the ReactJS framework.
+                        the interface of this app kept extremely modest & user-friendly. 
+                        And with filtering system, users can easily filter out restaurant & hotels based on their ratings.</p>
+                    <a href="https://awaye.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square fa-fade"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/gamehaiyr.jpg">
+                <div class="layer">
+                    <h3>The Simon Game</h3>
+                    <p> Created interactive Simon game web app using HTML, CSS, & JavaScript technologies.
+                        Designed responsive, colorful buttons for an engaging & intuitive user experience.</p>
+                    <a href="https://github.com/akshat2502/simon.game"><i class="fa-solid fa-arrow-up-right-from-square fa-fade"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/dating.png">
+                <div class="layer">
+                    <h3>TINDOG - Where dogs meet their match</h3>
+                    <p>Designed engaging interface with app details, features, pricing, and testimonials, enhancing user trust & interaction.
+                       Use Bootstrap for consistent design and user-friendly navigation, ensuring effortless exploration.</p>
+                    <a href="https://akshat2502.github.io/Tindog_website/"><i class="fa-solid fa-arrow-up-right-from-square fa-fade"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/akshat2502" class="btn">See more</a>
+    </div>
+</div>
+
+<!---------contact info---------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-tittle">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i>akshatarora411@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9540913274</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+                </div>
+                <a href="images/october resume.pdf" download class="btn btn2">Download CV</a>
+                <img src="images/newone.jpg" width="50%" height="30%">
+            </div>
+            <div class="contact-right">
+                <h2 class="btn">Want To Ask Something? Go Ahead!</h2>
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="5" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© Akshat Arora. All right reserved 👀</p>
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (var i = 0; i < tablinks.length; i++) {
+            tablinks[i].classList.remove("active-link");
+        }
+
+        for (var i = 0; i < tabcontents.length; i++) {
+            tabcontents[i].classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+
+<script>
+
+    var sidemeu=document.getElementById("sidemenu");
+    function openmenu() {
+        sidemeu.style.right= "0";
+    }
+    function closemenu() {
+        sidemeu.style.right = "-200px";
+    }
+    
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxg_akBOKDIVwqtkDzbXR7Zg2LWzJldqFkNpWDWptTCrt8G3X81nBtCF6_S9iMmOPmM/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(() => {
+                msg.innerHTML="";
+            }, 4000);
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+</html>
+
